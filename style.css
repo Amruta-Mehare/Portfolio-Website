@@ -856,14 +856,16 @@ footer span a:hover {
     width: 150px;
   }
   .services .title::before {
-    background: #fff;
-  
+    background: none;
   }
+
   .services .title::after {
     background: #111;
-    padding-top: 50px;
     content: "—What I Provide?—";
-  
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+
   }
   
 
